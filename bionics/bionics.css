@@ -107,12 +107,28 @@ body {
     color: #ffffff;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .container h1 {
-        font-size: 2rem;
+        font-size: 7vw;
         letter-spacing: 0.4rem;
     }
     body {
-        font-size: 1rem;
+        font-size: 3vw;
+    }
+
+    .navbar img {
+        border-radius: 2px;
+    }
+
+    .content {
+        border-radius: 3px;
+    }
+    
+    .content img{
+        border-radius: 3px;
+    }
+    
+    .qote {
+        border-radius: 3px;
     }
 }
